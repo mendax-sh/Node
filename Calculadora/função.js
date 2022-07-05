@@ -1,3 +1,5 @@
+var nome = "Calculadora" 
+
 function soma(a,b){
     return a + b;
 }
@@ -19,4 +21,5 @@ module.exports = {
     mult,
     div,
     sub,
+    nome,
 }
